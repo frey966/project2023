@@ -1,0 +1,7 @@
+# 在原有的生产者代码的application.yml文件中增加如下配置
+server:
+   port: 8082
+
+
+
+

@@ -1,0 +1,19 @@
+# 在原有的生产者代码的application.yml文件中增加如下配置
+server:
+   port: 8082
+spring:
+  rabbitmq:
+    #ip
+    host: 18.166.225.206
+    #端口
+    port: 5672
+    username: cloud
+    password: 12345678
+    #虚拟机
+    virtual-host: /
+    connection-timeout: 15000
+    publisher-confirm-type: correlated
+
+
+
+
